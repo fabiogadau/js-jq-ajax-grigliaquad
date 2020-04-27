@@ -13,6 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
 }
 
 /* General container */
@@ -21,7 +22,7 @@ body {
   height: 900px;
   display: flex;
   flex-wrap: wrap;
-  background-color: royalblue;
+  background-color: #fff;
 }
 
 /* Boxes */
@@ -29,6 +30,7 @@ body {
   width: calc(100% / 6);
   height: calc(100% / 6);
   border: 1px solid green;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
