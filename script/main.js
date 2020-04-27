@@ -44,9 +44,6 @@ $(document).ready(function() {
           actualBox.addClass('green');
           actualBox.removeClass('yellow');
         }
-        else if ( actualBox.text() > '0' ) {
-          alert('Bottone già cliccato');
-        }
 
       },
       // Funzione error in caso di errori di esecuzione
